@@ -10,7 +10,6 @@ if position_taken?(board,index) == false &&  test_val == true
 elsif test_val == false
   return false
 end
-return board
 end
 
 # re-define your #position_taken? method here, so that you can use it in the #valid_move? method above.
