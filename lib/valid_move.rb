@@ -19,4 +19,4 @@ def position_taken?(board,index)
  end
 end
 
-valid_move?(board, index)
+valid_move?([], 1)
