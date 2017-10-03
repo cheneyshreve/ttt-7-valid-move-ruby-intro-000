@@ -3,10 +3,9 @@ board = Array.new(9, " ")
 index = 0
 
 def valid_move?(board,index)
-
 if position_taken?(board,index) == false && index.between?(0,8) == true
   return true
-elsif index.between(0,8) == false
+elsif index.between?(0,8) == false
   return false
 end
 end
