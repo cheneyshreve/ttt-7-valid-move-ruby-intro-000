@@ -8,7 +8,7 @@ def valid_move?(board,index)
 if position_taken?(board,index) == false &&  test_val == true
   return true
 elsif test_val == false
-  return false || nil
+  return false 
 end
 end
 
