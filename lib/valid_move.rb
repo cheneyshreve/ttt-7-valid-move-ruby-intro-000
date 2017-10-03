@@ -1,6 +1,6 @@
 # code your #valid_move? method here
 board = Array.new(9, " ")
-user_input = gets.strip.to_i
+user_input = 4
 index = user_input - 1
 
 def valid_move?(board,index)
