@@ -1,4 +1,6 @@
 # code your #valid_move? method here
+board = []
+index = 0
 def valid_move?(board,index)
 if position_taken? == false &&  board[index].between?(0,8)
   return true
