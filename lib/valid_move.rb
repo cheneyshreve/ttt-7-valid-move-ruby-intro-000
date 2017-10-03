@@ -1,5 +1,6 @@
 # code your #valid_move? method here
 board = Array.new(9, " ")
+index = 0
 
 def valid_move?(board,index)
   val = board[index].to_i
