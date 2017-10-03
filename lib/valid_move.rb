@@ -1,7 +1,4 @@
 # code your #valid_move? method here
-board = Array.new(9, " ")
-index = 0
-
 def valid_move?(board,index)
 if position_taken?(board,index) == false &&  board[index].between?(0,8)
   return true
