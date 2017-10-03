@@ -6,7 +6,7 @@ def valid_move?(board,index)
   val = board[index].to_i
 if position_taken?(board,index) == false &&  val.between?(0,8) == true
   return true
-elsif position_taken?(board,index) == true || val.between?(0,8) == false || val == nil
+elsif position_taken?(board,index) == true || val.between?(0,8) == false 
   return false
 end
 end
