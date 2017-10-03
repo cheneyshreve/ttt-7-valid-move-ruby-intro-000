@@ -5,7 +5,6 @@ index = 0
 def valid_move?(board,index)
   val = board[index].to_i
   test_val = val.between?(0,8)
-  
 if position_taken?(board,index) == false &&  test_val == true
   return true
 elsif test_val == false
